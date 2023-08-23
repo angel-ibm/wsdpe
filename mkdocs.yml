@@ -5,7 +5,7 @@ site_description: watsonx.data workshop
 site_author: "Angel Gonzalez"
 
 nav:
-  - Vorbereitung: 'README.md'
+  - Vorbereitung: 'index.md'
   
 
 # Repository Information
