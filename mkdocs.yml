@@ -1,6 +1,6 @@
 # Project Information
 site_name: "IBM Business Partner watsonx.data workshop"
-site_url: "https://pages.github.ibm.com/angelito/wxdpe"
+site_url: "https://angel-ibm.github.io/wsdpe/"
 site_description: watsonx.data workshop
 site_author: "Angel Gonzalez"
 
@@ -9,9 +9,9 @@ nav:
   
 
 # Repository Information
-repo_name: 'angelito/wxdpe'
-repo_url: 'https://github.ibm.com/angelito/wxdpe'
-edit_uri: 'https://github.ibm.com/angelito/wxdpe'
+repo_name: 'angel-ibm/wsdpe'
+repo_url: 'https://github.com/angel-ibm/wsdpe'
+edit_uri: 'https://github.com/angel-ibm/wsdpe'
 docs_dir: 'docs'
 site_dir: 'site'
 remote_branch: 'mkdocs'
