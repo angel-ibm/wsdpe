@@ -1,6 +1,6 @@
 # watsonx.data workshop
 
-Hier ist Georg Baklarzs Doku [mkdocs.org](https://db2-dte-poc.github.io/wxddemo/)
+Hier ist Georg Baklarzs Doku [watsonx.data Lab](https://db2-dte-poc.github.io/wxddemo/)
 
 ## Alex Doku
 
