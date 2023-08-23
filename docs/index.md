@@ -1,5 +1,7 @@
 # **IBM Business Partner watsonx.data workshop**
 
+![](./media/Watson%20X_Banner.jpg)
+
 Das hands-on Team begrüßt Sie ganz herzlich zu unserem Workshop, an dem wir die Technologie von [watsonx.data](https://www.ibm.com/de-de/products/watsonx-data) gemeinsam üben werden.
 
 Bitte lesen Sie vorsichtig diese kurze Anleitung, um:
@@ -17,33 +19,37 @@ Das ist die Agenda, die wir für Sie vorbereitet haben.
 
     | Beginn | Dauer | Inhalt                                                |
     |--------|-------|-------------------------------------------------------|
-    |  00:00 | 00:15 | Intro                                                 |
-    |  00:15 | 00:30 | <span style="color:blue">Setup check   </span>        |
-    |  00:45 | 00:30 | <span style="color:green">Fundamentals </span>        |
-    |  01:15 | 00:15 | Exercise 1: Briefing                                  |
-    |  01:30 | 01:15 | <span style="color:red"> Exercise 1: hands-on </span> |
-    |  02:45 | 00:15 | Recap                                                 |
+    |  14:30 | 00:15 | Intro                                                 |
+    |  14:45 | 00:30 | <span style="color:blue">Setup check   </span>        |
+    |  15:15 | 00:30 | <span style="color:green">Fundamentals </span>        |
+    |  15:45 | 00:15 | Exercise 1: Briefing                                  |
+    |  16:00 | 01:15 | <span style="color:red"> Exercise 1: hands-on </span> |
+    |  17:15 | 00:15 | Recap                                                 |
 
 === "Tag 2"
 
     | Beginn | Dauer | Inhalt                                                |
     |--------|-------|-------------------------------------------------------|
-    |  00:00 | 00:30 | <span style="color:green">Beyond Fundamentals </span> |
-    |  00:30 | 00:15 | Exercise 2: Briefing                                  |
-    |  00:45 | 01:00 | <span style="color:red"> Exercise 2: hands-on </span> |
-    |  01:45 | 00:30 | <span style="color:green">Adoption Patterns  </span>  |
-    |  02:15 | 00:05 | Exercise 3: Briefing                                  |
-    |  02:20 | 01:30 | <span style="color:red"> Exercise 3: hands-on </span> |
-    |  02:50 | 00:10 | Feedback & Farewell                                   |
+    |  09:00 | 00:30 | <span style="color:green">Beyond Fundamentals </span> |
+    |  09:30 | 00:15 | Exercise 2: Briefing                                  |
+    |  09:45 | 01:00 | <span style="color:red"> Exercise 2: hands-on </span> |
+    |  10:45 | 00:30 | <span style="color:green">Adoption Patterns  </span>  |
+    |  11:15 | 00:05 | Exercise 3: Briefing                                  |
+    |  11:20 | 01:30 | <span style="color:red"> Exercise 3: hands-on </span> |
+    |  11:50 | 00:10 | Feedback & Farewell                                   |
 
 Abhängig vom Ablauf in den unterschiedlichen Lokationen können sich die Zeiten leicht ändern aber grundsätzlich gilt es, dass wir  <span style="color:green">Vorträgen</span> mit <span style="color:red">individuelle Übungen</span> an Ihrem System kombinieren. Dabei ist es zu bemerken, dass wir zwei Optionen vorgesehen haben, um die Übungen durchzuführen und wir werden am ersten Tag <span style="color:blue"> die Umgebungen kurz durchchecken </span> bevor es mit den Inhalten losgeht.
 
+## *Hands-on*
+
+Für die individuelle Übungen haben wir eine Auswahl aus der **[watsonx.data Lab](https://db2-dte-poc.github.io/wxddemo/)** vorgesehen, die unsere Kollegen [Georg Baklarz, Daniel Hancock und Deepak Rangarao](https://db2-dte-poc.github.io/wxddemo/wxd-acknowledgements/) für die ganze watsonx Community bereitgestellt haben. Darüber hinaus werden wir auch eigene Übungen vorbereitet, die insbesordere bei der Installation des Produkts sehr interessant sein werden.
+
 ## System / Umgebung / Plattform
 
-Die Übungen im *hands-on* Workshop können in zwei Varianten durchgeführt werden. Bitte wählen Sie eine von den folgenden Optionen aus und versuchen Sie die jeweiligen Voraussetzungen **vor dem Workshop** zu erfüllen.
+Die Übungen im *hands-on* Workshop können in zwei Varianten durchgeführt werden. Bitte wählen Sie eine von den folgenden Optionen aus und versuchen Sie die jeweiligen Voraussetzungen **vor dem Workshop** zu erfüllen:
 
-1. Auf einem Cloud-System in der IBM Techzone
-2. Auf ihrem eigenen Laptop mit einer VMWare- oder VirtualBox-Image (OVA-Datei, 30GB gross)
+1. entweder auf einem Cloud-System in der **[IBM TechZone](https://techzone.ibm.com/)**
+2. oder auf ihrem eigenen Laptop mit einer VMWare- oder VirtualBox-Image (OVA-Datei, 30GB gross)
 
 Als kurze Hilfestellung für die Auswahl ist folgendes zu überlegen:
 
@@ -51,8 +57,8 @@ Als kurze Hilfestellung für die Auswahl ist folgendes zu überlegen:
 - Die TechZone ist eine sehr gute Alternative aber es ist nicht auszuschliessen, dass die Kapazität vom Rechenzentrum Ihrer Auswahl nicht ausreicht, genau wann Sie das System provisionieren lassen. Daher empfiehlt sich, ein paar Tage in Voraus das System zu bestellen und gelegentlich die Bestellung wiederholen, wenn es nicht geklappt hat. In manchen Fällen ist die einzige Option, ein anderes Rechenzentrum zu nutzen.
 - Wenn Ihrem Apple-Laptop mit M1/M2 Chips ausgestattet ist, ist die Option 1 (TechZone) die einzige Alternative
 - In allen Fällen ist es nötig, zusätzliche Software auf Ihrem Laptop zu installieren: 
-    - [Wireguard](https://www.wireguard.com/install/), um das System im TechZone zu erreichen
-    - [VMWare Player](https://www.vmware.com/products/workstation-player.html) bzw. [VMWare Fusion Player](https://customerconnect.vmware.com/en/evalcenter?p=fusion-player-personal-13) bzw. [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
+    - [Wireguard](https://www.wireguard.com/install/), um das System im TechZone zu erreichen (Option 1)
+    - [VMWare Player](https://www.vmware.com/products/workstation-player.html) bzw. [VMWare Fusion Player](https://customerconnect.vmware.com/en/evalcenter?p=fusion-player-personal-13) bzw. [Virtual Box](https://www.virtualbox.org/wiki/Downloads) (Option 2)
 
 Bitte öffnen Sie die folgende Notiz und prüfen Sie die Checkliste von Ihrer Wahl. Dann klicken Sie auf den Hyperlinks, um genauere Einzelheiten zu bekommen und führen Sie die angegeben Schritte / Befehle aus:
 
@@ -93,7 +99,8 @@ Bitte öffnen Sie die folgende Notiz und prüfen Sie die Checkliste von Ihrer Wa
 
 Bitte kontaktieren Sie uns, um Ihre Anregungen, Vorschläge und Fragen mitzuteilen und sie zu klären. Wir sind gerne für Sie da:
 
-!!! note "Ihre technischen Ansprechpartner in den IBM Lokationen"
+
+!!! note  "Ihre technischen Ansprechpartner in den IBM Lokationen"
 
     === "Ehningen"
         :fontawesome-regular-envelope: [Angel González](mailto:angelito@de.ibm.com)  
@@ -110,3 +117,6 @@ Bitte kontaktieren Sie uns, um Ihre Anregungen, Vorschläge und Fragen mitzuteil
     === "Wien"
         :fontawesome-regular-envelope: [Ronald Bruter](mailto:Ronald_Brutter@at.ibm.com)  
   
+  Wir freuen uns darauf, Sie an der Veranstaltung zu treffen.
+
+  ![](./media/team.png)
