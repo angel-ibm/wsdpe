@@ -71,8 +71,6 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - def_list
   - md_in_html
-  - pymdownx.tasklist:
-      clickable_checkbox: true
   - meta
   - toc:
       permalink: true 
