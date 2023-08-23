@@ -96,9 +96,11 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.ibm.com/angelito/wxdpe
+      link: https://github.com/angel-ibm/wsdpe
     - icon: fontawesome/solid/globe
-      link: https://pages.github.ibm.com/angelito/wxdpe
+      link: https://angel-ibm.github.io/wsdpe/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/angelgonz/
 
 
 copyright: Copyright &copy; 2023 Angel Gonzalez  - IBM Germany
