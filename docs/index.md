@@ -85,7 +85,7 @@ Bitte öffnen Sie die folgende Notiz und prüfen Sie die Checkliste von Ihrer Wa
           - Befehl: ```wget -O watsonxdata.ova https://ibm.biz/wxd-vmware```
           - ich sehe den download-Link auf der [WebSeite der TechZone Reservierung ](https://db2-dte-poc.github.io/wxddemo/wxd-vmware/) , obwohl ich keine Reservierung möchte 
         - [ ] die Virtual-Maschine **[startet](https://db2-dte-poc.github.io/wxddemo/wxd-vmware/#starting-the-vmware-image)**
-        - [ ] ich sehe die ***[watsonx.data management console ](https://db2-dte-poc.github.io/wxddemo/wxd-vmware/#vmware-urls/)*** (und die anderen auch)
+        - [ ] ich sehe die ***[watsonx.data management console ](https://db2-dte-poc.github.io/wxddemo/wxd-vmware/#vware-urls/)*** (und die anderen consoles auch)
 
 ## Extra Übung
 

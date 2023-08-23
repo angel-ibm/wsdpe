@@ -6,7 +6,9 @@ site_author: "Angel Gonzalez"
 
 nav:
   - Vorbereitung: 'index.md'
-  
+  - Exercise 1: 'ex1.md'
+  - Exercise 2: 'ex2.md'
+  - Exercise 3: 'ex3.md'
 
 # Repository Information
 repo_name: 'angel-ibm/wsdpe'
