@@ -1,0 +1,104 @@
+# Project Information
+site_name: "watsonx.data for IBM Business Partners enablement workshop"
+site_url: "https://pages.github.ibm.com/angelito/wxdpe"
+site_description: watsonx.data workshop
+site_author: "Angel Gonzalez"
+
+nav:
+  - Vorbereitung: 'README.md'
+  
+
+# Repository Information
+repo_name: 'angelito/wxdpe'
+repo_url: 'https://github.ibm.com/angelito/wxdpe'
+edit_uri: 'https://github.ibm.com/angelito/wxdpe'
+docs_dir: 'docs'
+site_dir: 'site'
+remote_branch: 'mkdocs'
+remote_name: 'origin'
+
+theme:
+  palette:
+    - scheme: default
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: 'IBM Plex Sans'
+    code: 'IBM Plex Mono'
+  favicon: 'media/logo-ibm.png'
+  logo: 'media/logo-ibm.png'
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    # - toc.integrate
+    - search.suggest
+    - search.highlight
+    - header.autohide
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+  - inline-svg
+  - mkdocs-jupyter:
+      ignore_h1_titles: True
+  - table-reader
+
+markdown_extensions:
+  - tables
+  - abbr
+  - footnotes
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - meta
+  - toc:
+      permalink: true 
+      toc_depth: 4     
+  - smarty:
+      smart_quotes: false
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+extra:
+  homepage: https://www.ibm.com
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.ibm.com/angelito/wxdpe
+    - icon: fontawesome/solid/globe
+      link: https://pages.github.ibm.com/angelito/wxdpe
+
+
+copyright: Copyright &copy; 2023 Angel Gonzalez  - IBM Germany
