@@ -1,4 +1,4 @@
-# **IBM Business Partner watsonx.data workshop**
+# **DACH watsonx.data Partner Roadshow**
 
 ![](./media/Watson%20X_Banner.jpg)
 
@@ -30,13 +30,13 @@ Das ist die Agenda, die wir für Sie vorbereitet haben.
 
     | Beginn | Dauer | Inhalt                                                |
     |--------|-------|-------------------------------------------------------|
-    |  09:00 | 00:30 | <span style="color:green">Beyond Fundamentals </span> |
-    |  09:30 | 00:15 | Exercise 2: Briefing                                  |
-    |  09:45 | 01:00 | <span style="color:red"> Exercise 2: hands-on </span> |
-    |  10:45 | 00:30 | <span style="color:green">Adoption Patterns  </span>  |
-    |  11:15 | 00:05 | Exercise 3: Briefing                                  |
-    |  11:20 | 01:30 | <span style="color:red"> Exercise 3: hands-on </span> |
-    |  11:50 | 00:10 | Feedback & Farewell                                   |
+    |  09:30 | 00:30 | <span style="color:green">Beyond Fundamentals </span> |
+    |  10:00 | 00:15 | Exercise 2: Briefing                                  |
+    |  10:15 | 01:00 | <span style="color:red"> Exercise 2: hands-on </span> |
+    |  11:15 | 00:30 | <span style="color:green">Adoption Patterns  </span>  |
+    |  11:45 | 00:05 | Exercise 3: Briefing                                  |
+    |  11:50 | 01:30 | <span style="color:red"> Exercise 3: hands-on </span> |
+    |  12:20 | 00:10 | Feedback & Farewell                                   |
 
 Abhängig vom Ablauf in den unterschiedlichen Lokationen können sich die Zeiten leicht ändern aber grundsätzlich gilt es, dass wir  <span style="color:green">Vorträge</span> mit <span style="color:red">individuellen Übungen</span> an Ihrem System kombinieren. Dabei ist es zu bemerken, dass wir zwei Optionen vorgesehen haben, um die Übungen durchzuführen. Wir werden am ersten Tag <span style="color:blue"> die Umgebungen kurz testen </span> bevor es mit den Inhalten losgeht.
 

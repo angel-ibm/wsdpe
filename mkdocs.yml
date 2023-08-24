@@ -1,14 +1,21 @@
 # Project Information
-site_name: "IBM Business Partner watsonx.data workshop"
+site_name: "DACH watsonx Partner Roadshow (hands-on)"
 site_url: "https://angel-ibm.github.io/wsdpe/"
 site_description: watsonx.data workshop
 site_author: "Angel Gonzalez"
 
 nav:
-  - Vorbereitung: 'index.md'
-  - Exercise 1: 'ex1.md'
-  - Exercise 2: 'ex2.md'
-  - Exercise 3: 'ex3.md'
+  - ' ': ' ' # blank line
+  - Vor dem Workshop:
+    - Vorbereitung: 'index.md'
+  - Tag 1:
+    - Fundamentals: 'fun.md'
+    - Exercise 1: 'ex1.md'
+  - Tag 2:
+    - Beyond Fundamentals: 'bey.md'
+    - Exercise 2: 'ex2.md'
+    - Adoption Patterns: 'pat.md'
+    - Exercise 3: 'ex3.md'
 
 # Repository Information
 repo_name: 'angel-ibm/wsdpe'
