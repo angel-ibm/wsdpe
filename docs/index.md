@@ -2,9 +2,9 @@
 
 ![](./media/Watson%20X_Banner.jpg)
 
-Das hands-on Team begrüßt Sie ganz herzlich zu unserem Workshop, an dem wir die Technologie von [watsonx.data](https://www.ibm.com/de-de/products/watsonx-data) gemeinsam üben werden.
+Das hands-on Team begrüßt Sie ganz herzlich zu unserem Workshop, in dem wir die Technologie von [watsonx.data](https://www.ibm.com/de-de/products/watsonx-data) gemeinsam üben werden.
 
-Bitte lesen Sie vorsichtig diese kurze Anleitung, um:
+Bitte lesen Sie diese kurze Anleitung sorgfältig, um:
 
 - die technischen Voraussetzungen zu erfahren,
 - sich mit dem Ablauf vertraut zu machen,  
@@ -38,7 +38,7 @@ Das ist die Agenda, die wir für Sie vorbereitet haben.
     |  11:20 | 01:30 | <span style="color:red"> Exercise 3: hands-on </span> |
     |  11:50 | 00:10 | Feedback & Farewell                                   |
 
-Abhängig vom Ablauf in den unterschiedlichen Lokationen können sich die Zeiten leicht ändern aber grundsätzlich gilt es, dass wir  <span style="color:green">Vorträgen</span> mit <span style="color:red">individuelle Übungen</span> an Ihrem System kombinieren. Dabei ist es zu bemerken, dass wir zwei Optionen vorgesehen haben, um die Übungen durchzuführen und wir werden am ersten Tag <span style="color:blue"> die Umgebungen kurz durchchecken </span> bevor es mit den Inhalten losgeht.
+Abhängig vom Ablauf in den unterschiedlichen Lokationen können sich die Zeiten leicht ändern aber grundsätzlich gilt es, dass wir  <span style="color:green">Vorträge</span> mit <span style="color:red">individuellen Übungen</span> an Ihrem System kombinieren. Dabei ist es zu bemerken, dass wir zwei Optionen vorgesehen haben, um die Übungen durchzuführen. Wir werden am ersten Tag <span style="color:blue"> die Umgebungen kurz testen </span> bevor es mit den Inhalten losgeht.
 
 ## *Hands-on*
 
@@ -49,18 +49,18 @@ Für die individuelle Übungen haben wir eine Auswahl aus der **[watsonx.data La
 Die Übungen im *hands-on* Workshop können in zwei Varianten durchgeführt werden. Bitte wählen Sie eine von den folgenden Optionen aus und versuchen Sie die jeweiligen Voraussetzungen **vor dem Workshop** zu erfüllen:
 
 1. entweder auf einem Cloud-System in der **[IBM TechZone](https://techzone.ibm.com/)**
-2. oder auf ihrem eigenen Laptop mit einer VMWare- oder VirtualBox-Image (OVA-Datei, 30GB gross)
+2. oder auf ihrem eigenen Laptop mit einem VMWare- oder VirtualBox-Image (OVA-Datei, 30GB gross)
 
 Als kurze Hilfestellung für die Auswahl ist folgendes zu überlegen:
 
-- Wenn Sie über einem kleinen Laptop verfügen, oder die Ressourcen auf Ihrem Laptop schon knapp sind, ist die Option 2 (VMWare Image) nicht wirklich geeignet. Bitte prüfen Sie die genauen Voraussetzungen in den kommenden Abschnitten dieser Anleitung nach.
-- Die TechZone ist eine sehr gute Alternative aber es ist nicht auszuschliessen, dass die Kapazität vom Rechenzentrum Ihrer Auswahl nicht ausreicht, genau wann Sie das System provisionieren lassen. Daher empfiehlt sich, ein paar Tage in Voraus das System zu bestellen und gelegentlich die Bestellung wiederholen, wenn es nicht geklappt hat. In manchen Fällen ist die einzige Option, ein anderes Rechenzentrum zu nutzen.
-- Wenn Ihrem Apple-Laptop mit M1/M2 Chips ausgestattet ist, ist die Option 1 (TechZone) die einzige Alternative
-- In allen Fällen ist es nötig, zusätzliche Software auf Ihrem Laptop zu installieren: 
-    - [Wireguard](https://www.wireguard.com/install/), um das System im TechZone zu erreichen (Option 1)
+- Wenn Sie über einem kleinen Laptop verfügen, oder die Ressourcen auf Ihrem Laptop schon knapp sind, ist die Option 2 (VMWare Image) nicht wirklich geeignet. Bitte prüfen Sie die genauen Voraussetzungen in den kommenden Abschnitten dieser Anleitung.
+- Die TechZone ist eine sehr gute Alternative.  Es läßt sich aber leider nicht ausschließen, dass die Kapazitäten der Cloud-Region Ihrer Auswahl nicht ausreichen, um eine Umgebung zu provisionieren. Daher empfiehlt sich, die Reservierung ein paar Tage vor Beginn des Workshops  vorzunehmen. Sollte der erste Versuch nicht erfolgreich sein, wiederholen Sie bitte erneut, eine Umgebung zu reservieren. Eine Lösung ist es manchmal auch, die Cloud-Region zu wechseln.
+- Wenn Ihr Apple-Laptop mit M1/M2 Chips ausgestattet ist, ist die Option 1 (TechZone) die einzige Alternative
+- In allen Fällen ist es nötig, zusätzliche Software auf Ihrem Laptop zu installieren:  
+    - [Wireguard](https://www.wireguard.com/install/) (VPN Software), um das System im TechZone zu erreichen (Option 1)
     - [VMWare Player](https://www.vmware.com/products/workstation-player.html) bzw. [VMWare Fusion Player](https://customerconnect.vmware.com/en/evalcenter?p=fusion-player-personal-13) bzw. [Virtual Box](https://www.virtualbox.org/wiki/Downloads) (Option 2)
 
-Bitte öffnen Sie die folgende Notiz und prüfen Sie die Checkliste von Ihrer Wahl. Dann klicken Sie auf den Hyperlinks, um genauere Einzelheiten zu bekommen und führen Sie die angegeben Schritte / Befehle aus:
+Bitte öffnen Sie die folgende Notiz und prüfen Sie die Checkliste Ihrer Wahl. Dann klicken Sie auf den Hyperlinks, um genauere Einzelheiten zu bekommen und führen Sie die angegeben Schritte / Befehle aus:
 
 ??? success "Technische Checkliste"
 
