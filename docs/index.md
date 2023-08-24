@@ -8,7 +8,7 @@ Bitte lesen Sie diese kurze Anleitung sorgfältig, um:
 
 - die technischen Voraussetzungen zu erfahren,
 - sich mit dem Ablauf vertraut zu machen,  
-- die Zeit am Tag des Workshops optimal zu nutzen  
+- die Zeit am Tag des Workshops optimal zu nutzen und   
 - die nötigen Vorbereitungen **vor dem Workshop** durchzuführen.
 
 ## Agenda  
@@ -42,7 +42,7 @@ Abhängig vom Ablauf in den unterschiedlichen Lokationen können sich die Zeiten
 
 ## *Hands-on*
 
-Für die individuelle Übungen haben wir eine Auswahl aus der **[watsonx.data Lab](https://db2-dte-poc.github.io/wxddemo/)** vorgesehen, die unsere Kollegen [Georg Baklarz, Daniel Hancock und Deepak Rangarao](https://db2-dte-poc.github.io/wxddemo/wxd-acknowledgements/) für die ganze watsonx Community bereitgestellt haben. Darüber hinaus werden wir auch eigene Übungen vorbereitet, die insbesordere bei der Installation des Produkts sehr interessant sein werden.
+Für die individuelle Übungen haben wir eine Auswahl aus der **[watsonx.data Lab](https://db2-dte-poc.github.io/wxddemo/)** vorgesehen, die unsere Kollegen [Georg Baklarz, Daniel Hancock und Deepak Rangarao](https://db2-dte-poc.github.io/wxddemo/wxd-acknowledgements/) für die ganze watsonx Community bereitgestellt haben. Darüber hinaus haben wir auch eigene Übungen vorbereitet, die bei der Installation des Produkts sehr nützlich sein können.
 
 ## System / Umgebung / Plattform
 
@@ -87,12 +87,19 @@ Bitte öffnen Sie die folgende Notiz und prüfen Sie die Checkliste Ihrer Wahl. 
         - [ ] die Virtual-Maschine **[startet](https://db2-dte-poc.github.io/wxddemo/wxd-vmware/#starting-the-vmware-image)**
         - [ ] ich sehe die ***[watsonx.data management console ](https://db2-dte-poc.github.io/wxddemo/wxd-vmware/#vware-urls/)*** (und die anderen consoles auch)
 
-## Extra Übung
+## Installation von watsonx.data  
 
-!!! bug "Das müssen wir erweitern"
+Die *"developer edition"* von watsonx.data war auf den oben beschrieben Umgebungen bereits installiert und konfiguriert denn es wäre nicht machbar, eine komplette Installation im Rahmen der verfügbaren Zeit im Workshop zu üben.  
 
-    watsonx.data war auf den oben beschrieben Umgebungen bereits installiert und konfiguriert denn es wäre nicht machbar, die komplette Installation im Rahmen der verfügbaren Zeit zu üben. Dennoch haben wir eine Anleitung vorbereitet, um watsonx.data auf einem Single Node OpenShift zu aufzusetzen: <https://pages.github.ibm.com/alexander/ibmas-watsonxdata/>
+ Dennoch möchten wir den Installationsprozess von dem normalen Produkt abdecken und dafür haben wir eine Anleitung vorbereitet, um watsonx.data auf einem Single Node OpenShift zu aufzusetzen. Da dieses Thema nicht für alle Teilnehmer interessant sein könnte, betrachten wir es als optional und wir werden die Übung im Kompaktform am Ende des Workshops vornehmen.
 
+ Diejenige, die für die Installation vornehmen möchten, müssen ein paar zusätzliche Voraussetzungen erfüllen, die wir **[hier](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/Requirements/) ** dokumentiert haben. Bitte führen Sie das gesamte ***"Step 1"*** wie beschrieben durch. 
+ 
+ Wenn das System provisioniert ist, prüfen Sie bitte, ob Sie sich anmelden können, indem Sie den ***["Step 2" ](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/Prepare%20the%20Installation/ )*** zumindest bis zum Punkt 2.2.3 durchführen. Die restlichen Schritten können wir während des Workshops gemeinsam durchführen.
+
+!!! warning "Lizenz für watsonx.data"  
+
+    In dieser Übung wird kein *"developer edition"* angewendet, sondern das Standard-Produkt. Dementsprechend ist ein gültiges Lizenz für die erfolgreiche Installation nötig. Ob Sie als IBM Business Partner über so ein Lizenz verfügen, können Sie auf der WebSeite von **[MyIBM](https://myibm.ibm.com/dashboard/)** prüfen. Klicken Sie auf dem Kachel ***Container Software & Entitlement Keys*** oder nutzen Sie **[den direkten Link](https://myibm.ibm.com/products-services/containerlibrary)**, wo sie Ihre "active entitlement keys" sehen bzw. beantragen können.      
 
 
 ## Haben Sie noch Fragen?  
@@ -115,7 +122,7 @@ Bitte kontaktieren Sie uns, um Ihre Anregungen, Vorschläge und Fragen mitzuteil
         :fontawesome-regular-envelope: [Olaf Depper ](mailto:OD@de.ibm.com)  
 
     === "Wien"
-        :fontawesome-regular-envelope: [Ronald Bruter](mailto:Ronald_Brutter@at.ibm.com)  
+        :fontawesome-regular-envelope: [Ronald Brutter](mailto:Ronald_Brutter@at.ibm.com)  
   
   Wir freuen uns darauf, Sie an der Veranstaltung zu treffen.
 
