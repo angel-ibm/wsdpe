@@ -15,29 +15,31 @@ Bitte lesen Sie diese kurze Anleitung sorgfältig, um:
 
 Das ist die Agenda, die wir für Sie vorbereitet haben.  
 
-=== "Tag 1"  
-
-    | Beginn | Dauer | Inhalt                                                |
-    |--------|-------|-------------------------------------------------------|
-    |  14:30 | 00:15 | Intro                                                 |
-    |  14:45 | 00:30 | <span style="color:blue">Setup check   </span>        |
-    |  15:15 | 00:30 | <span style="color:green">Fundamentals </span>        |
-    |  15:45 | 00:15 | Exercise 1: Briefing                                  |
-    |  16:00 | 01:15 | <span style="color:red"> Exercise 1: hands-on </span> |
-    |  17:15 | 00:15 | Recap                                                 |
-
-=== "Tag 2"
-
-    | Beginn | Dauer | Inhalt                                                |
-    |--------|-------|-------------------------------------------------------|
-    |  09:30 | 00:30 | <span style="color:green">Beyond Fundamentals </span> |
-    |  10:00 | 00:15 | Exercise 2: Briefing                                  |
-    |  10:15 | 01:00 | <span style="color:red"> Exercise 2: hands-on </span> |
-    |  11:15 | 00:30 | <span style="color:green">Adoption Patterns  </span>  |
-    |  11:45 | 00:05 | Exercise 3: Briefing                                  |
-    |  11:50 | 01:30 | <span style="color:red"> Exercise 3: hands-on </span> |
-    |  12:20 | 00:10 | Feedback & Farewell                                   |
-
+!!! note  "DACH watsonx.data Partner Roadshow. Technical hands-on Agenda"
+    
+    === "Tag 1"  
+    
+        | Beginn | Dauer | Inhalt                                                |
+        |--------|-------|-------------------------------------------------------|
+        |  14:30 | 00:15 | Intro                                                 |
+        |  14:45 | 00:30 | <span style="color:blue">Setup check   </span>        |
+        |  15:15 | 00:30 | <span style="color:green">Fundamentals </span>        |
+        |  15:45 | 00:15 | Exercise 1: Briefing                                  |
+        |  16:00 | 01:15 | <span style="color:red"> Exercise 1: hands-on </span> |
+        |  17:15 | 00:15 | Recap                                                 |
+    
+    === "Tag 2"
+    
+        | Beginn | Dauer | Inhalt                                                |
+        |--------|-------|-------------------------------------------------------|
+        |  09:30 | 00:30 | <span style="color:green">Beyond Fundamentals </span> |
+        |  10:00 | 00:15 | Exercise 2: Briefing                                  |
+        |  10:15 | 01:00 | <span style="color:red"> Exercise 2: hands-on </span> |
+        |  11:15 | 00:30 | <span style="color:green">Adoption Patterns  </span>  |
+        |  11:45 | 00:05 | Exercise 3: Briefing                                  |
+        |  11:50 | 01:30 | <span style="color:red"> Exercise 3: hands-on </span> |
+        |  12:20 | 00:10 | Feedback & Farewell                                   |
+    
 Abhängig vom Ablauf in den unterschiedlichen Lokationen können sich die Zeiten leicht ändern aber grundsätzlich gilt es, dass wir  <span style="color:green">Vorträge</span> mit <span style="color:red">individuellen Übungen</span> an Ihrem System kombinieren. Dabei ist es zu bemerken, dass wir zwei Optionen vorgesehen haben, um die Übungen durchzuführen. Wir werden am ersten Tag <span style="color:blue"> die Umgebungen kurz testen </span> bevor es mit den Inhalten losgeht.
 
 ## *Hands-on*
