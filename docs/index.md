@@ -62,7 +62,7 @@ Als kurze Hilfestellung für die Auswahl ist folgendes zu überlegen:
 
 Bitte öffnen Sie die folgende Notiz und prüfen Sie die Checkliste Ihrer Wahl. Dann klicken Sie auf den Hyperlinks, um genauere Einzelheiten zu bekommen und führen Sie die angegeben Schritte / Befehle aus:
 
-??? success "Technische Checkliste"
+!!! success "Technische Checkliste"
 
     === "Option 1: TechZone System"
 
