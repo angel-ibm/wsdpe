@@ -60,7 +60,7 @@ Als kurze Hilfestellung für die Auswahl ist folgendes zu überlegen:
     - [Wireguard](https://www.wireguard.com/install/) (VPN Software), um das System im TechZone zu erreichen (Option 1)
     - [VMWare Player](https://www.vmware.com/products/workstation-player.html) bzw. [VMWare Fusion Player](https://customerconnect.vmware.com/en/evalcenter?p=fusion-player-personal-13) bzw. [Virtual Box](https://www.virtualbox.org/wiki/Downloads) (Option 2)
 
-Bitte öffnen Sie die folgende Notiz und prüfen Sie die Checkliste Ihrer Wahl. Dann klicken Sie auf den Hyperlinks, um genauere Einzelheiten zu bekommen und führen Sie die angegeben Schritte / Befehle aus:
+Bitte prüfen Sie die Checkliste Ihrer Wahl. Klicken Sie auf den Hyperlinks, um genauere Einzelheiten zu bekommen und führen Sie die angegeben Schritte / Befehle aus:
 
 !!! success "Technische Checkliste"
 
