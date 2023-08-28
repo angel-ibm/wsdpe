@@ -8,15 +8,15 @@ Bitte lesen Sie diese kurze Anleitung sorgfältig, um:
 
 - die technischen Voraussetzungen zu erfahren,
 - sich mit dem Ablauf vertraut zu machen,  
-- die Zeit am Tag des Workshops optimal zu nutzen und   
+- die Zeit am Tag des Workshops optimal zu nutzen und  
 - die nötigen Vorbereitungen **vor dem Workshop** durchzuführen.
 
 ## Technische Agenda  
 
-Das ist die Agenda, die wir für Sie vorbereitet haben.  
+Das ist die Agenda, die wir für Sie vorbereitet haben:  
 
 !!! note  "DACH watsonx.data Partner Roadshow. Technical hands-on Agenda"
-    
+
     === "Tag 1"  
     
         | Beginn | Dauer | Inhalt                                                |
@@ -39,7 +39,7 @@ Das ist die Agenda, die wir für Sie vorbereitet haben.
         |  11:45 | 00:05 | Exercise 3: Briefing                                  |
         |  11:50 | 01:30 | <span style="color:red"> Exercise 3: hands-on </span> |
         |  12:20 | 00:10 | Feedback & Farewell                                   |
-    
+
 Abhängig vom Ablauf in den unterschiedlichen Lokationen können sich die Zeiten leicht ändern aber grundsätzlich gilt es, dass wir  <span style="color:green">Vorträge</span> mit <span style="color:red">individuellen Übungen</span> an Ihrem System kombinieren. Dabei ist es zu bemerken, dass wir zwei Optionen vorgesehen haben, um die Übungen durchzuführen. Wir werden am ersten Tag <span style="color:blue"> die Umgebungen kurz testen </span> bevor es mit den Inhalten losgeht.
 
 ## *Hands-on*
@@ -91,11 +91,9 @@ Bitte prüfen Sie die Checkliste Ihrer Wahl. Klicken Sie auf den Hyperlinks, um 
 
 ## Installation von watsonx.data  
 
-
 !!! warning "Lizenz für watsonx.data"  
 
     In dieser Übung wird kein *"developer edition"* angewendet, sondern das Standard-Produkt. Dementsprechend ist ein gültiges Lizenz für die erfolgreiche Installation nötig. Ob Sie als IBM Business Partner über so ein Lizenz verfügen, können Sie auf der WebSeite von **[MyIBM](https://myibm.ibm.com/dashboard/)** prüfen. Klicken Sie auf dem Kachel ***Container Software & Entitlement Keys*** oder nutzen Sie **[den direkten Link](https://myibm.ibm.com/products-services/containerlibrary)**, wo sie Ihre "active entitlement keys" sehen bzw. beantragen können.      
-
 
 Zwei Versionen von watsonx.data stehen zur Verfügung, mit denen wir im Workshop arbeiten werden:
 
