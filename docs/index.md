@@ -121,7 +121,6 @@ Falls Sie die "Standalone Edition" installieren möchten, würden wir Sie darum 
 
 Bitte kontaktieren Sie uns, um Ihre Anregungen, Vorschläge und Fragen mitzuteilen und sie zu klären. Wir sind gerne für Sie da:
 
-
 !!! note  "Ihre technischen Ansprechpartner in den IBM Lokationen"
 
     === "Ehningen"
@@ -129,12 +128,12 @@ Bitte kontaktieren Sie uns, um Ihre Anregungen, Vorschläge und Fragen mitzuteil
         :fontawesome-regular-envelope: [Stefan Hummel](mailto:Stefan.Hummel@de.ibm.com)  
     
     === "Frankfurt"
-        :fontawesome-regular-envelope: [Sonja Pressler ](mailto:sonja.pressel@de.ibm.com)  
+        :fontawesome-regular-envelope: [Sonja Pressel](mailto:sonja.pressel@de.ibm.com)  
         :fontawesome-regular-envelope: [Tobias Nirschl ](mailto:Tobias.Nirschl@ibm.com)  
         
     === "Hamburg"
         :fontawesome-regular-envelope: [Alexander Seelert](mailto:alexander@de.ibm.com)  
-        :fontawesome-regular-envelope: [Olaf Depper ](mailto:OD@de.ibm.com)  
+        :fontawesome-regular-envelope: [Olaf Depper](mailto:OD@de.ibm.com)  
 
     === "Wien"
         :fontawesome-regular-envelope: [Ronald Brutter](mailto:Ronald_Brutter@at.ibm.com)  
