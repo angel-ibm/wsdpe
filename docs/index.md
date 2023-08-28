@@ -11,7 +11,7 @@ Bitte lesen Sie diese kurze Anleitung sorgfältig, um:
 - die Zeit am Tag des Workshops optimal zu nutzen und   
 - die nötigen Vorbereitungen **vor dem Workshop** durchzuführen.
 
-## Agenda  
+## Technische Agenda  
 
 Das ist die Agenda, die wir für Sie vorbereitet haben.  
 
