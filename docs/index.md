@@ -91,18 +91,31 @@ Bitte prüfen Sie die Checkliste Ihrer Wahl. Klicken Sie auf den Hyperlinks, um 
 
 ## Installation von watsonx.data  
 
-Die *"developer edition"* von watsonx.data war auf den oben beschrieben Umgebungen bereits installiert und konfiguriert denn es wäre nicht machbar, eine komplette Installation im Rahmen der verfügbaren Zeit im Workshop zu üben.  
-
- Dennoch möchten wir den Installationsprozess von dem normalen Produkt abdecken und dafür haben wir eine Anleitung vorbereitet, um watsonx.data auf einem Single Node OpenShift zu aufzusetzen. Da dieses Thema nicht für alle Teilnehmer interessant sein könnte, betrachten wir es als optional und wir werden die Übung im Kompaktform am Ende des Workshops vornehmen.
-
- Diejenige, die für die Installation vornehmen möchten, müssen ein paar zusätzliche Voraussetzungen erfüllen, die wir **[hier](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/Requirements/) ** dokumentiert haben. Bitte führen Sie das gesamte ***"Step 1"*** wie beschrieben durch. 
- 
- Wenn das System provisioniert ist, prüfen Sie bitte, ob Sie sich anmelden können, indem Sie den ***["Step 2" ](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/Prepare%20the%20Installation/ )*** zumindest bis zum Punkt 2.2.3 durchführen. Die restlichen Schritten können wir während des Workshops gemeinsam durchführen.
 
 !!! warning "Lizenz für watsonx.data"  
 
     In dieser Übung wird kein *"developer edition"* angewendet, sondern das Standard-Produkt. Dementsprechend ist ein gültiges Lizenz für die erfolgreiche Installation nötig. Ob Sie als IBM Business Partner über so ein Lizenz verfügen, können Sie auf der WebSeite von **[MyIBM](https://myibm.ibm.com/dashboard/)** prüfen. Klicken Sie auf dem Kachel ***Container Software & Entitlement Keys*** oder nutzen Sie **[den direkten Link](https://myibm.ibm.com/products-services/containerlibrary)**, wo sie Ihre "active entitlement keys" sehen bzw. beantragen können.      
 
+
+Zwei Versionen von watsonx.data stehen zur Verfügung, mit denen wir im Workshop arbeiten werden:
+
+- **"Developer Edition":** Diese Version wird hauptsächlich im Workshop verwendet und sie ist bereits vorinstalliert, wenn sie entweder über die IBM TechZone provisioniert wird oder als OVA-Image heruntergeladen wird, wie in der technischen Checkliste beschrieben ist. Die "Developer Edition" wurde bereits vorab  eingerichtet, um einen schnellen Einstieg in den Übungen des Workshops zu ermöglichen.
+- **"Standalone Edition"**: Diese Version muss auf einer OpenShift-Umgebung installiert werden und dementsprechend werden zusätzliche Voraussetzungen benötigt. Wir haben eine [separate Anleitung](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/) dafür vorbereitet
+
+Während im Workshop hauptsächlich mit der "Developer Edition" gearbeitet wird, kann parallel dazu die Installation der "Standalone Edition" mit einem OpenShift Single Node Cluster (SNO) erfolgen, um sich mit dem Installationsprozess vertraut zu machen. Die Installation benötigt ca. 2,5 Stunden und kann im Hintergrund parallel zum Workshop stattfinden.
+
+!!! info "Bitte beachten Sie:"
+
+        Wir möchten darauf hinweisen, dass diese Installation einen tieferen technischen Hintergrund erfordert. Unser Hauptziel ist es, der technischen Gruppe eine praxisnahe Workshop-Erfahrung zu bieten.
+
+Die Installation der "Standalone Edition" erfolgt in zwei Schritten: Zuerst muss die Hardware bereitgestellt werden, indem das Single Node Cluster (SNO) in der TechZone provisonieret wird. Dies ist der erste Schritt. Danach können Sie die Installation von watsonx.data fortsetzen.
+
+### Voraussetzungen zur Installation von watsonx.data
+
+Falls Sie die "Standalone Edition" installieren möchten, würden wir Sie darum bitten, die entsprechende Umgebung **vor dem Workshop**  wie folgt zu provisionieren:
+
+- **SNO Cluster**: zuerst beachten Sie bitte die zusätzlichen Voraussetzungen, die  **[hier im *"Step 1"*](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/Requirements/)** dokumentiert sind und dann befolgen Sie den Prozess zur Provisionierung des Single Node Clusters (SNO) gemäß den Anweisungen.
+- **Zugriff Check**: Wenn das System provisioniert ist, prüfen Sie bitte, ob Sie sich anmelden können, indem Sie den ***["Step 2" ](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/Prepare%20the%20Installation/ )*** zumindest bis zum Punkt 2.2.3 durchführen. Die restlichen Schritten ab dem Punkt 2.3 können wir während des Workshops gemeinsam durchführen.
 
 ## Haben Sie noch Fragen?  
 
