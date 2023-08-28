@@ -802,21 +802,21 @@
 </div>
 </div>
 <h2 id="installation-von-watsonxdata">Installation von watsonx.data<a class="headerlink" href="#installation-von-watsonxdata" title="Permanent link">&para;</a></h2>
+<p>Zwei Versionen von watsonx.data stehen zur Verfügung, mit denen wir im Workshop arbeiten werden:</p>
+<ul>
+<li><strong>"Developer Edition":</strong> Diese Version wird hauptsächlich im Workshop verwendet und sie ist bereits vorinstalliert, wenn sie entweder über die IBM TechZone provisioniert wird oder als OVA-Image heruntergeladen wird, wie in der technischen Checkliste beschrieben ist. Die "Developer Edition" wurde bereits vorab  eingerichtet, um einen schnellen Einstieg in den Übungen des Workshops zu ermöglichen.</li>
+<li><strong>"Standalone Edition"</strong>: Diese Version muss auf einer OpenShift-Umgebung installiert werden und dementsprechend werden zusätzliche Voraussetzungen benötigt. Wir haben eine zusätzliche Übung und eine <a href="https://pages.github.ibm.com/alexander/ibmas-watsonxdata/">separate Anleitung</a> dafür vorbereitet.</li>
+</ul>
 <div class="admonition warning">
 <p class="admonition-title">Lizenz für watsonx.data</p>
 <p>In dieser zusätzlichen Übung wird kein <em>"developer edition"</em> angewendet, sondern das Standard-Produkt. Dementsprechend ist ein gültiges Lizenz für die erfolgreiche Installation nötig. Ob Sie als IBM Business Partner über so ein Lizenz verfügen, können Sie auf der WebSeite von <strong><a href="https://myibm.ibm.com/dashboard/">MyIBM</a></strong> prüfen. Klicken Sie auf dem Kachel <strong><em>Container Software &amp; Entitlement Keys</em></strong> oder nutzen Sie <strong><a href="https://myibm.ibm.com/products-services/containerlibrary">den direkten Link</a></strong>, wo sie Ihre "active entitlement keys" sehen bzw. beantragen können.      </p>
 </div>
-<p>Zwei Versionen von watsonx.data stehen zur Verfügung, mit denen wir im Workshop arbeiten werden:</p>
-<ul>
-<li><strong>"Developer Edition":</strong> Diese Version wird hauptsächlich im Workshop verwendet und sie ist bereits vorinstalliert, wenn sie entweder über die IBM TechZone provisioniert wird oder als OVA-Image heruntergeladen wird, wie in der technischen Checkliste beschrieben ist. Die "Developer Edition" wurde bereits vorab  eingerichtet, um einen schnellen Einstieg in den Übungen des Workshops zu ermöglichen.</li>
-<li><strong>"Standalone Edition"</strong>: Diese Version muss auf einer OpenShift-Umgebung installiert werden und dementsprechend werden zusätzliche Voraussetzungen benötigt. Wir haben eine <a href="https://pages.github.ibm.com/alexander/ibmas-watsonxdata/">separate Anleitung</a> dafür vorbereitet</li>
-</ul>
 <p>Während im Workshop hauptsächlich mit der "Developer Edition" gearbeitet wird, kann parallel dazu die Installation der "Standalone Edition" mit einem OpenShift Single Node Cluster (SNO) erfolgen, um sich mit dem Installationsprozess vertraut zu machen. Die Installation benötigt ca. 2,5 Stunden und kann im Hintergrund parallel zum Workshop stattfinden.</p>
+<p>Die Installation der "Standalone Edition" erfolgt in zwei Schritten: Zuerst muss die Hardware bereitgestellt werden, indem das Single Node Cluster (SNO) in der TechZone provisoniert wird. Dies ist der erste Schritt. Danach können Sie die Installation von watsonx.data fortsetzen.</p>
 <div class="admonition info">
 <p class="admonition-title">Bitte beachten Sie:<p>Wir möchten darauf hinweisen, dass diese Installation einen tieferen technischen Hintergrund erfordert. Unser Hauptziel ist es, der technischen Gruppe eine praxisnahe Workshop-Erfahrung zu bieten.</p>
 </p>
 </div>
-<p>Die Installation der "Standalone Edition" erfolgt in zwei Schritten: Zuerst muss die Hardware bereitgestellt werden, indem das Single Node Cluster (SNO) in der TechZone provisonieret wird. Dies ist der erste Schritt. Danach können Sie die Installation von watsonx.data fortsetzen.</p>
 <h3 id="voraussetzungen-zur-installation-von-watsonxdata">Voraussetzungen zur Installation von watsonx.data<a class="headerlink" href="#voraussetzungen-zur-installation-von-watsonxdata" title="Permanent link">&para;</a></h3>
 <p>Falls Sie die "Standalone Edition" installieren möchten, würden wir Sie darum bitten, die entsprechende Umgebung <strong>vor dem Workshop</strong>  wie folgt zu provisionieren:</p>
 <ul>
