@@ -18,4 +18,3 @@ Der folgende Abschnitt ist eher als Referenz gedacht aber es enthält sehr inter
 ## Installation von watsonx.data
 
 Nachdem Sie das System provisioniert und watsonx.data komplett eingerichtet haben, können Sie beliebigen Schritten von Ihrer Wahl aus den anderen Übungen auf Ihrer neuen Umgebung durchführen.
-
