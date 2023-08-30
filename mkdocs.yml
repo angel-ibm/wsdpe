@@ -16,6 +16,8 @@ nav:
     - Exercise 2: 'ex2.md'
     - Adoption Patterns: 'pat.md'
     - Exercise 3: 'ex3.md'
+  - ' ': ' ' # blank line
+  - Zusätzliches Material: "extra.md"
 
 # Repository Information
 repo_name: 'angel-ibm/wsdpe'

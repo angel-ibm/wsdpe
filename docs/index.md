@@ -42,7 +42,7 @@ Das ist die Agenda, die wir für Sie vorbereitet haben:
 
 Abhängig vom Ablauf in den unterschiedlichen Lokationen können sich die Zeiten leicht ändern aber grundsätzlich gilt es, dass wir  <span style="color:green">Vorträge</span> mit <span style="color:red">individuellen Übungen</span> an Ihrem System kombinieren. Dabei ist es zu bemerken, dass wir zwei Optionen vorgesehen haben, um die Übungen durchzuführen. Wir werden am ersten Tag <span style="color:blue"> die Umgebungen kurz testen </span> bevor es mit den Inhalten losgeht.
 
-## *Hands-on*
+## *Hands-on*  
 
 Für die individuelle Übungen haben wir eine Auswahl aus der **[watsonx.data Lab](https://db2-dte-poc.github.io/wxddemo/)** vorgesehen, die unsere Kollegen [Georg Baklarz, Daniel Hancock und Deepak Rangarao](https://db2-dte-poc.github.io/wxddemo/wxd-acknowledgements/) für die ganze watsonx Community bereitgestellt haben. Darüber hinaus haben wir auch eigene Übungen vorbereitet, die bei der Installation des Produkts sehr nützlich sein können.
 
@@ -91,22 +91,22 @@ Bitte prüfen Sie die Checkliste Ihrer Wahl. Klicken Sie auf den Hyperlinks, um 
 
 ## Installation von watsonx.data  
 
-!!! warning "Lizenz für watsonx.data"  
-
-    In dieser Übung wird kein *"developer edition"* angewendet, sondern das Standard-Produkt. Dementsprechend ist ein gültiges Lizenz für die erfolgreiche Installation nötig. Ob Sie als IBM Business Partner über so ein Lizenz verfügen, können Sie auf der WebSeite von **[MyIBM](https://myibm.ibm.com/dashboard/)** prüfen. Klicken Sie auf dem Kachel ***Container Software & Entitlement Keys*** oder nutzen Sie **[den direkten Link](https://myibm.ibm.com/products-services/containerlibrary)**, wo sie Ihre "active entitlement keys" sehen bzw. beantragen können.      
-
 Zwei Versionen von watsonx.data stehen zur Verfügung, mit denen wir im Workshop arbeiten werden:
 
 - **"Developer Edition":** Diese Version wird hauptsächlich im Workshop verwendet und sie ist bereits vorinstalliert, wenn sie entweder über die IBM TechZone provisioniert wird oder als OVA-Image heruntergeladen wird, wie in der technischen Checkliste beschrieben ist. Die "Developer Edition" wurde bereits vorab  eingerichtet, um einen schnellen Einstieg in den Übungen des Workshops zu ermöglichen.
-- **"Standalone Edition"**: Diese Version muss auf einer OpenShift-Umgebung installiert werden und dementsprechend werden zusätzliche Voraussetzungen benötigt. Wir haben eine [separate Anleitung](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/) dafür vorbereitet
+- **"Standalone Edition"**: Diese Version muss auf einer OpenShift-Umgebung installiert werden und dementsprechend werden zusätzliche Voraussetzungen benötigt. Wir haben eine zusätzliche Übung und eine [separate Anleitung](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/) dafür vorbereitet.
+
+!!! warning "Lizenz für watsonx.data"  
+
+    In dieser zusätzlichen Übung wird kein *"developer edition"* angewendet, sondern das Standard-Produkt. Dementsprechend ist ein gültiges Lizenz für die erfolgreiche Installation nötig. Ob Sie als IBM Business Partner über so ein Lizenz verfügen, können Sie auf der WebSeite von **[MyIBM](https://myibm.ibm.com/dashboard/)** prüfen. Klicken Sie auf dem Kachel ***Container Software & Entitlement Keys*** oder nutzen Sie **[den direkten Link](https://myibm.ibm.com/products-services/containerlibrary)**, wo sie Ihre "active entitlement keys" sehen bzw. beantragen können.      
 
 Während im Workshop hauptsächlich mit der "Developer Edition" gearbeitet wird, kann parallel dazu die Installation der "Standalone Edition" mit einem OpenShift Single Node Cluster (SNO) erfolgen, um sich mit dem Installationsprozess vertraut zu machen. Die Installation benötigt ca. 2,5 Stunden und kann im Hintergrund parallel zum Workshop stattfinden.
+
+Die Installation der "Standalone Edition" erfolgt in zwei Schritten: Zuerst muss die Hardware bereitgestellt werden, indem das Single Node Cluster (SNO) in der TechZone provisoniert wird. Dies ist der erste Schritt. Danach können Sie die Installation von watsonx.data fortsetzen.
 
 !!! info "Bitte beachten Sie:"
 
         Wir möchten darauf hinweisen, dass diese Installation einen tieferen technischen Hintergrund erfordert. Unser Hauptziel ist es, der technischen Gruppe eine praxisnahe Workshop-Erfahrung zu bieten.
-
-Die Installation der "Standalone Edition" erfolgt in zwei Schritten: Zuerst muss die Hardware bereitgestellt werden, indem das Single Node Cluster (SNO) in der TechZone provisonieret wird. Dies ist der erste Schritt. Danach können Sie die Installation von watsonx.data fortsetzen.
 
 ### Voraussetzungen zur Installation von watsonx.data
 
