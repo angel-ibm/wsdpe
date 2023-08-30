@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://angel-ibm.github.io/wsdpe/extra/</loc>
+         <lastmod>2023-08-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://angel-ibm.github.io/wsdpe/fun/</loc>
          <lastmod>2023-08-30</lastmod>
          <changefreq>daily</changefreq>
