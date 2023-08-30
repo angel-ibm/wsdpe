@@ -89,6 +89,8 @@ Bitte prüfen Sie die Checkliste Ihrer Wahl. Klicken Sie auf den Hyperlinks, um 
         - [ ] die Virtual-Maschine **[startet](https://db2-dte-poc.github.io/wxddemo/wxd-vmware/#starting-the-vmware-image)**
         - [ ] ich sehe die ***[watsonx.data management console ](https://db2-dte-poc.github.io/wxddemo/wxd-vmware/#vware-urls/)*** (und die anderen consoles auch)
 
+Wenn Sie noch ausführlichere Informationen über die Begriffe, notwendige Software, Ihre Bedienung und  Funktion wünschen, die sich in den Voraussetzungen befinden, finden Sie diese auf der Sektion **[Zusätzliches Material](https://angel-ibm.github.io/wsdpe/extra/) - Punkt 4: Prerequisites & Getting Started**.
+
 ## Installation von watsonx.data  
 
 Zwei Versionen von watsonx.data stehen zur Verfügung, mit denen wir im Workshop arbeiten werden:
