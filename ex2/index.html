@@ -617,35 +617,46 @@
 
 
 <h1 id="exercise-2">Exercise 2<a class="headerlink" href="#exercise-2" title="Permanent link">&para;</a></h1>
-<div class="admonition danger">
-<p class="admonition-title">Der Inhalt von dieser Webseite ist noch nicht final</p>
-</div>
 <h2 id="presto-sql">Presto SQL<a class="headerlink" href="#presto-sql" title="Permanent link">&para;</a></h2>
-<p>Bitte führen Sie die folgenden Sektionen des watsonx.data Lab. </p>
+<p>Bitte führen Sie die folgenden Sektionen des watsonx.data Lab.  </p>
 <div class="admonition abstract">
 <p class="admonition-title">Exercise 2.1</p>
 <ul>
-<li><a href="https://db2-dte-poc.github.io/wxddemo/wxd-analytics/">Analytic Workloads </a></li>
-<li><a href="https://db2-dte-poc.github.io/wxddemo/wxd-advanced/">Advanced Funtions</a></li>
+<li><a href="https://db2-dte-poc.github.io/wxddemo/wxd-analytics/">Analytic Workloads</a></li>
+<li><a href="https://db2-dte-poc.github.io/wxddemo/wxd-advanced/">Advanced Functions</a></li>
 <li><a href="https://db2-dte-poc.github.io/wxddemo/wxd-timetravel/">Time Travel</a></li>
 <li><a href="https://db2-dte-poc.github.io/wxddemo/wxd-federation/">Federation</a></li>
 <li><a href="https://db2-dte-poc.github.io/wxddemo/wxd-superset/">Apache Superset</a></li>
 </ul>
 </div>
+<p>Im Kapitel <strong>9. Federated Queries</strong> und <strong>11. Time Travel and Rollback </strong>aus dem <strong><a href="https://angel-ibm.github.io/wsdpe/extra/">Zusätzliches Material</a></strong> haben Sie sehr ausführliche Informationen und ergänzende Übungen zu diesem Thema.</p>
+<p>Ganz am Anfang, im Abschnitt <strong>Joins and Aggregations</strong> gibt es ein kleines <em>"quiz"</em>. Wenn Sie hier nicht weiter kommen, wäre das ein Versuch:</p>
+<details class="tip">
+<summary>Quiz: window function</summary>
+<div class="language-text highlight"><pre><span></span><code>SELECT 
+   custkey, orderdate, totalprice, 
+   lag(totalprice, 1) OVER (PARTITION BY custkey ORDER BY orderdate asc) AS priororder
+FROM 
+   iceberg_data.workshop.orders 
+ORDER BY 
+   custkey, orderdate;
+</code></pre></div>
+</details>
 <h2 id="working-with-object-store-buckets">Working with Object Store Buckets<a class="headerlink" href="#working-with-object-store-buckets" title="Permanent link">&para;</a></h2>
-<p>Bitte führen Sie die folgenden Sektionen des watsonx.data Lab. </p>
+<p>Bitte führen Sie die folgenden Sektionen des watsonx.data Lab.  </p>
 <div class="admonition abstract">
 <p class="admonition-title">Exercise 2.2</p>
 <ul>
-<li><a href="https://db2-dte-poc.github.io/wxddemo/wxd-objectstore/">Object Store </a></li>
+<li><a href="https://db2-dte-poc.github.io/wxddemo/wxd-objectstore/">Object Store</a></li>
 </ul>
 </div>
+<p>Im Kapitel <strong>7. Working with MinIO</strong> aus dem <strong><a href="https://angel-ibm.github.io/wsdpe/extra/">Zusätzliches Material</a></strong> haben Sie sehr ausführliche Informationen und ergänzende Übungen zu diesem Thema.</p>
 <h2 id="installation-von-watsonxdata">Installation von watsonx.data<a class="headerlink" href="#installation-von-watsonxdata" title="Permanent link">&para;</a></h2>
-<p>Wenn Sie die Installation von watsonx.data in der letzten Übung durchgeführt haben, können Sie jetzt den näachsten Schritt durchführen, um die Installation zu vervollständigen, </p>
+<p>Wenn Sie die Installation von watsonx.data in der letzten Übung durchgeführt haben, können Sie jetzt den näachsten Schritt durchführen, um die Installation zu vervollständigen.</p>
 <div class="admonition example">
 <p class="admonition-title">Exercise 2.3</p>
 <ul>
-<li><a href="https://pages.github.ibm.com/alexander/ibmas-watsonxdata/Execute%20the%20Installation%20of%20watsonx.data/">Installation watsonx.data <strong>Step 3</strong> </a></li>
+<li><a href="https://pages.github.ibm.com/alexander/ibmas-watsonxdata/Execute%20the%20Installation%20of%20watsonx.data/">Installation watsonx.data <strong>Step 3</strong></a></li>
 </ul>
 </div>
 
