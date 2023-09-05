@@ -137,6 +137,12 @@ Bitte kontaktieren Sie uns, um Ihre Anregungen, Vorschläge und Fragen mitzuteil
 
     === "Wien"
         :fontawesome-regular-envelope: [Ronald Brutter](mailto:Ronald_Brutter@at.ibm.com)  
+        :fontawesome-regular-envelope: [Daniel Stanek](mailto:Daniel.Stanek@ibm.com)  
+        :fontawesome-regular-envelope: [Thomas Jirku](mailto:thomas.jirku@at.ibm.com)  
+  
+    === "Zürich"
+        :fontawesome-regular-envelope: [Paul Jud](mailto:pjud@ch.ibm.com)  
+        :fontawesome-regular-envelope: [Mario Locher](mailto:mario.locher@ibm.com)
   
   Wir freuen uns darauf, Sie an der Veranstaltung zu treffen.
 
