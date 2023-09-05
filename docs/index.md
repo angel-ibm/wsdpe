@@ -36,10 +36,12 @@ Das ist die Agenda, die wir für Sie vorbereitet haben:
         |  09:30 | 00:30 | <span style="color:green">Beyond Fundamentals </span> |
         |  10:00 | 00:15 | Exercise 2: Briefing                                  |
         |  10:15 | 01:00 | <span style="color:red"> Exercise 2: hands-on </span> |
-        |  11:15 | 00:30 | <span style="color:green">Adoption Patterns  </span>  |
-        |  11:45 | 00:05 | Exercise 3: Briefing                                  |
-        |  11:50 | 01:30 | <span style="color:red"> Exercise 3: hands-on </span> |
-        |  12:20 | 00:10 | Feedback & Farewell                                   |
+        |  11:15 | 00:15 | Break                                                 |
+        |  11:30 | 00:30 | <span style="color:green">Adoption Patterns  </span>  |
+        |  12:00 | 00:05 | Exercise 3: Briefing                                  |
+        |  12:05 | 00:30 | <span style="color:red"> Exercise 3: hands-on </span> |
+        |  12:35 | 00:10 | Feedback & Farewell                                   |
+        |  12:45 | 00:45 | Lunch and Networking                                  |
 
 Abhängig vom Ablauf in den unterschiedlichen Lokationen können sich die Zeiten leicht ändern aber grundsätzlich gilt es, dass wir  <span style="color:green">Vorträge</span> mit <span style="color:red">individuellen Übungen</span> an Ihrem System kombinieren. Dabei ist es zu bemerken, dass wir zwei Optionen vorgesehen haben, um die Übungen durchzuführen. Wir werden am ersten Tag <span style="color:blue"> die Umgebungen kurz testen </span> bevor es mit den Inhalten losgeht.
 
