@@ -30,4 +30,4 @@ In den Kapiteln **5. Exploring the watsonx.data User Interface** bis **6. Workin
 Wenn Sie die Installation von watsonx.data vornehmen möchten und die [Voraussetzungen](https://github.com/angel-ibm/wsdpe/#voraussetzungen-zur-installation-von-watsonxdata) erfüllt haben, können Sie der gesamte  Kapitel *"Step 2"* durchführen. Die Schritte, die Sie bereits als Voraussetzung für die Installation durchgeführt haben, müssen Sie nicht wiederholen.
 
 !!! example "Exercise 1.3"
-    - [Installation watsonx.data **Step 2**](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/Prepare%20the%20Installation/#23-install-required-redhat-base-software)
+    - [Installation watsonx.data **Step 2**](https://aseelert.github.io/ibmas-watsonxdata/Prepare%20the%20Installation/#23-install-required-redhat-base-software)

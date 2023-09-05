@@ -96,7 +96,7 @@ Wenn Sie noch ausführlichere Informationen über die Begriffe, notwendige Softw
 Zwei Versionen von watsonx.data stehen zur Verfügung, mit denen wir im Workshop arbeiten werden:
 
 - **"Developer Edition":** Diese Version wird hauptsächlich im Workshop verwendet und sie ist bereits vorinstalliert, wenn sie entweder über die IBM TechZone provisioniert wird oder als OVA-Image heruntergeladen wird, wie in der technischen Checkliste beschrieben ist. Die "Developer Edition" wurde bereits vorab  eingerichtet, um einen schnellen Einstieg in den Übungen des Workshops zu ermöglichen.
-- **"Standalone Edition"**: Diese Version muss auf einer OpenShift-Umgebung installiert werden und dementsprechend werden zusätzliche Voraussetzungen benötigt. Wir haben eine zusätzliche Übung und eine [separate Anleitung](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/) dafür vorbereitet.
+- **"Standalone Edition"**: Diese Version muss auf einer OpenShift-Umgebung installiert werden und dementsprechend werden zusätzliche Voraussetzungen benötigt. Wir haben eine zusätzliche Übung und eine [separate Anleitung](https://aseelert.github.io/ibmas-watsonxdata/) dafür vorbereitet.
 
 !!! warning "Lizenz für watsonx.data"  
 
@@ -114,8 +114,8 @@ Die Installation der "Standalone Edition" erfolgt in zwei Schritten: Zuerst muss
 
 Falls Sie die "Standalone Edition" installieren möchten, würden wir Sie darum bitten, die entsprechende Umgebung **vor dem Workshop**  wie folgt zu provisionieren:
 
-- **SNO Cluster**: zuerst beachten Sie bitte die zusätzlichen Voraussetzungen, die  **[hier im *"Step 1"*](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/Requirements/)** dokumentiert sind und dann befolgen Sie den Prozess zur Provisionierung des Single Node Clusters (SNO) gemäß den Anweisungen.
-- **Zugriff Check**: Wenn das System provisioniert ist, prüfen Sie bitte, ob Sie sich anmelden können, indem Sie den ***["Step 2" ](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/Prepare%20the%20Installation/ )*** zumindest bis zum Punkt 2.2.3 durchführen. Die restlichen Schritten ab dem Punkt 2.3 können wir während des Workshops gemeinsam durchführen.
+- **SNO Cluster**: zuerst beachten Sie bitte die zusätzlichen Voraussetzungen, die  **[hier im *"Step 1"*](https://aseelert.github.io/ibmas-watsonxdata/Requirements/)** dokumentiert sind und dann befolgen Sie den Prozess zur Provisionierung des Single Node Clusters (SNO) gemäß den Anweisungen.
+- **Zugriff Check**: Wenn das System provisioniert ist, prüfen Sie bitte, ob Sie sich anmelden können, indem Sie den ***["Step 2" ](https://aseelert.github.io/ibmas-watsonxdata/Prepare%20the%20Installation/ )*** zumindest bis zum Punkt 2.2.3 durchführen. Die restlichen Schritten ab dem Punkt 2.3 können wir während des Workshops gemeinsam durchführen.
 
 ## Haben Sie noch Fragen?  
 

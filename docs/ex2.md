@@ -41,4 +41,4 @@ Im Kapitel **7. Working with MinIO** aus dem **[Zusätzliches Material](https://
 Wenn Sie die Installation von watsonx.data in der letzten Übung durchgeführt haben, können Sie jetzt den näachsten Schritt durchführen, um die Installation zu vervollständigen.
 
 !!! example "Exercise 2.3"
-    - [Installation watsonx.data **Step 3**](https://pages.github.ibm.com/alexander/ibmas-watsonxdata/Execute%20the%20Installation%20of%20watsonx.data/)
+    - [Installation watsonx.data **Step 3**](https://aseelert.github.io/ibmas-watsonxdata/Execute%20the%20Installation%20of%20watsonx.data/)
