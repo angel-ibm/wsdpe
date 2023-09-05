@@ -24,8 +24,9 @@ Das ist die Agenda, die wir für Sie vorbereitet haben:
         |  14:30 | 00:15 | Intro                                                 |
         |  14:45 | 00:30 | <span style="color:blue">Setup check   </span>        |
         |  15:15 | 00:30 | <span style="color:green">Fundamentals </span>        |
-        |  15:45 | 00:15 | Exercise 1: Briefing                                  |
-        |  16:00 | 01:15 | <span style="color:red"> Exercise 1: hands-on </span> |
+        |  15:45 | 00:15 | Break                                                 |
+        |  16:00 | 00:15 | Exercise 1: Briefing                                  |
+        |  16:15 | 01:15 | <span style="color:red"> Exercise 1: hands-on </span> |
         |  17:15 | 00:15 | Recap                                                 |
     
     === "Tag 2"
