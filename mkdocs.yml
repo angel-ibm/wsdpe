@@ -18,6 +18,9 @@ nav:
     - Exercise 3: 'ex3.md'
   - ' ': ' ' # blank line
   - Zusätzliches Material: "extra.md"
+  - ' ': ' ' # blank line
+  - Feedback: "feed.md"
+
 
 # Repository Information
 repo_name: 'angel-ibm/wsdpe'
