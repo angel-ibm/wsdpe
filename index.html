@@ -344,6 +344,19 @@
     System / Umgebung / Plattform
   </a>
   
+    <nav class="md-nav" aria-label="System / Umgebung / Plattform">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wichtig-zu-beachten" class="md-nav__link">
+    Wichtig zu beachten
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -651,6 +664,19 @@
     System / Umgebung / Plattform
   </a>
   
+    <nav class="md-nav" aria-label="System / Umgebung / Plattform">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wichtig-zu-beachten" class="md-nav__link">
+    Wichtig zu beachten
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -853,7 +879,7 @@
 <li class="task-list-item"><input type="checkbox"/> ich habe eine <strong><a href="https://db2-dte-poc.github.io/wxddemo/wxd-reference-ibmid/">IBM id</a></strong></li>
 <li class="task-list-item"><input type="checkbox"/> ich kann genau <strong><a href="https://db2-dte-poc.github.io/wxddemo/wxd-reference-techzone/">dieses System</a></strong> in der TechZone provisionieren lassen</li>
 <li class="task-list-item"><input type="checkbox"/> ich habe <strong><a href="https://db2-dte-poc.github.io/wxddemo/wxd-reference-access/">eine Email</a> </strong> von der TechZone bekommen und mein System ist verfügbar</li>
-<li class="task-list-item"><input type="checkbox"/> ich habe das <strong><a href="https://db2-dte-poc.github.io/wxddemo/wxd-reference-wireguard/">Zertifikat heruntergeladen und Wireguard</a></strong> läuft auf meinem Laptop</li>
+<li class="task-list-item"><input type="checkbox"/> ich habe das <strong><a href="https://db2-dte-poc.github.io/wxddemo/wxd-reference-wireguard/">Zertifikat heruntergeladen und Wireguard</a></strong> läuft auf meinem Laptop. <strong>Wichtig: Siehe unten eine mögliche Abweichung.</strong></li>
 <li class="task-list-item"><input type="checkbox"/> ich kann mich ans System per <code>ssh</code> <strong><em><a href="https://db2-dte-poc.github.io/wxddemo/wxd-reference-ssh/">anmelden</a></em></strong></li>
 <li class="task-list-item"><input type="checkbox"/> ich sehe die <strong><em><a href="https://db2-dte-poc.github.io/wxddemo/wxd-reference-ports/">watsonx.data management console </a></em></strong></li>
 </ul>
@@ -875,6 +901,14 @@
 </div>
 </div>
 </div>
+</div>
+<h3 id="wichtig-zu-beachten">Wichtig zu beachten<a class="headerlink" href="#wichtig-zu-beachten" title="Permanent link">&para;</a></h3>
+<div class="admonition bug">
+<p class="admonition-title">Mögliche Abweichung zu der Option 1 - TechZone</p>
+<p>Zur Zeit werden neue Umgebungen in der TechZone provisioniert, die keine Wireguard benötigen. Die kann man erkennen, indem man die Adressen von den "Published services" auf der Reservierung-WebSeite prüft. Wenn diese Adressen z.B.  <code>eu-de.techzone-services.com</code> enthalten, muss man keine Wireguard Software installieren, um die Benutzeroberflächen anzeigen zu lassen. Beispiel:  </p>
+<p><img alt="" src="media/nowire.png" /></p>
+<p>In diesem Beispiel muss man einfach <code>https://eu-de.techzone-services.com:_portnumber_</code> im Laptop-Browser angeben, um die GUIs von den watsonx.data-Dienste zu sehen. Dafür ist keine Installation von Wireguard nötig und kein Herunterladen vom Zertifikaten notwendig.</p>
+<p>Bitte diese Abweichung beachten, wenn man so eine Umgebung bekommen hat. Die Angaben in der Anleitung müssen dementsprechend angepasst werden, wenn man z.B.  <code>ssh watsonx@192.168.252.2</code> oder <code>https://192.168.252.2:9443 - watsonx.data management console</code> liest. Die Adressen muss man durch die Angaben in der "Published services"-Sektion ersetzen.</p>
 </div>
 <p>Wenn Sie noch ausführlichere Informationen über die Begriffe, notwendige Software, Ihre Bedienung und  Funktion wünschen, die sich in den Voraussetzungen befinden, finden Sie diese auf der Sektion <strong><a href="https://angel-ibm.github.io/wsdpe/extra/">Zusätzliches Material</a> - Punkt 4: Prerequisites &amp; Getting Started</strong>.</p>
 <h2 id="installation-von-watsonxdata">Installation von watsonx.data<a class="headerlink" href="#installation-von-watsonxdata" title="Permanent link">&para;</a></h2>
