@@ -74,7 +74,7 @@ Bitte prüfen Sie die Checkliste Ihrer Wahl. Klicken Sie auf den Hyperlinks, um 
         - [ ] ich habe eine **[IBM id](https://db2-dte-poc.github.io/wxddemo/wxd-reference-ibmid/)**
         - [ ] ich kann genau **[dieses System](https://db2-dte-poc.github.io/wxddemo/wxd-reference-techzone/)** in der TechZone provisionieren lassen
         - [ ] ich habe **[eine Email](https://db2-dte-poc.github.io/wxddemo/wxd-reference-access/) ** von der TechZone bekommen und mein System ist verfügbar
-        - [ ] ich habe das **[Zertifikat heruntergeladen und Wireguard](https://db2-dte-poc.github.io/wxddemo/wxd-reference-wireguard/)** läuft auf meinem Laptop
+        - [ ] ich habe das **[Zertifikat heruntergeladen und Wireguard](https://db2-dte-poc.github.io/wxddemo/wxd-reference-wireguard/)** läuft auf meinem Laptop. **Wichtig: Siehe unten eine mögliche Abweichung.**
         - [ ] ich kann mich ans System per ```ssh``` ***[anmelden](https://db2-dte-poc.github.io/wxddemo/wxd-reference-ssh/)***
         - [ ] ich sehe die ***[watsonx.data management console ](https://db2-dte-poc.github.io/wxddemo/wxd-reference-ports/)***
 
@@ -91,6 +91,17 @@ Bitte prüfen Sie die Checkliste Ihrer Wahl. Klicken Sie auf den Hyperlinks, um 
           - ich sehe den download-Link auf der [WebSeite der TechZone Reservierung ](https://db2-dte-poc.github.io/wxddemo/wxd-vmware/) , obwohl ich keine Reservierung möchte 
         - [ ] die Virtual-Maschine **[startet](https://db2-dte-poc.github.io/wxddemo/wxd-vmware/#starting-the-vmware-image)**
         - [ ] ich sehe die ***[watsonx.data management console ](https://db2-dte-poc.github.io/wxddemo/wxd-vmware/#vware-urls/)*** (und die anderen consoles auch)
+
+### Wichtig zu beachten  
+
+!!! bug "Mögliche Abweichung zu der Option 1 - TechZone"
+    Zur Zeit werden neue Umgebungen in der TechZone provisioniert, die keine Wireguard benötigen. Die kann man erkennen, indem man die Adressen von den "Published services" auf der Reservierung-WebSeite prüft. Wenn diese Adressen z.B.  `eu-de.techzone-services.com` enthalten, muss man keine Wireguard Software installieren, um die Benutzeroberflächen anzeigen zu lassen. Beispiel:  
+
+    ![](./media/nowire.png)
+
+    In diesem Beispiel muss man einfach `https://eu-de.techzone-services.com:_portnumber_` im Laptop-Browser angeben, um die GUIs von den watsonx.data-Dienste zu sehen. Dafür ist keine Installation von Wireguard nötig und kein Herunterladen vom Zertifikaten notwendig.
+
+    Bitte diese Abweichung beachten, wenn man so eine Umgebung bekommen hat. Die Angaben in der Anleitung müssen dementsprechend angepasst werden, wenn man z.B.  `ssh watsonx@192.168.252.2` oder `https://192.168.252.2:9443 - watsonx.data management console` liest. Die Adressen muss man durch die Angaben in der "Published services"-Sektion ersetzen.
 
 Wenn Sie noch ausführlichere Informationen über die Begriffe, notwendige Software, Ihre Bedienung und  Funktion wünschen, die sich in den Voraussetzungen befinden, finden Sie diese auf der Sektion **[Zusätzliches Material](https://angel-ibm.github.io/wsdpe/extra/) - Punkt 4: Prerequisites & Getting Started**.
 
