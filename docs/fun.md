@@ -28,11 +28,8 @@ Der Boden der Landschaft repräsentiert die Ebene, die nirgendwo sichtbar ist. D
 
 Fazit: Die Landschaft repräsentiert eine komplexe Datenverarbeitungsumgebung, bei der Presto (das Flugzeug) die Datenverarbeitung ermöglicht. Die Benutzer sehen nur die Spitze des Eisbergs (Hive Metastore), während der Iceberg verschiedene Ebenen (wie Parquet und andere) unterhalb der Wasseroberfläche enthält, um die Daten zu organisieren. Der Object Store bildet die grundlegende Datenspeicherung, und die Hyperscaler (der Boden) stellen die notwendige Infrastruktur bereit, um diese komplexe Datenverarbeitungsumgebung zu unterstützen. Wie bei einem Eisberg können die verschiedenen Schichten unterschiedlich sein, aber sie arbeiten zusammen, um die Daten effizient zu verwalten und zu verarbeiten.
 
-
-![](media/google_pic.png)
-
-[Fundamentals - PDF Datei](media/Fundamentals.pdf)  
+[Fundamentals - PDF Datei](media/p1.pdf)  
 
 Vorschau der Präsentation:
 
-<iframe width="100%" height="800" src="../media/Fundamentals.pdf">
+<iframe width="100%" height="800" src="../media/p1.pdf">

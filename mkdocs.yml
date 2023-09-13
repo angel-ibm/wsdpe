@@ -9,6 +9,7 @@ nav:
   - Vor dem Workshop:
     - Vorbereitung: 'index.md'
   - Tag 1:
+    - Foreword: 'int.md'
     - Fundamentals: 'fun.md'
     - Exercise 1: 'ex1.md'
   - Tag 2:
